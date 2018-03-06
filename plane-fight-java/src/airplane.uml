@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>airplane</OriginalElement>
+  <nodes>
+    <node x="3.5" y="587.0">airplane.Bullet</node>
+    <node x="538.0" y="472.0">airplane.Enermy</node>
+    <node x="245.0" y="909.5">airplane.SuperEnermy</node>
+    <node x="556.0" y="0.0">airplane.FlyingThings</node>
+    <node x="831.0" y="426.0">airplane.MyPlane</node>
+    <node x="538.0" y="898.0">airplane.BoomEnermy</node>
+    <node x="0.0" y="1013.0">airplane.EnermyBullet</node>
+    <node x="831.0" y="909.5">airplane.NormalEnermy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="airplane.NormalEnermy" target="airplane.Enermy">
+      <point x="0.0" y="-176.5" />
+      <point x="967.5" y="873.0" />
+      <point x="765.5" y="873.0" />
+      <point x="91.0" y="165.0" />
+    </edge>
+    <edge source="airplane.EnermyBullet" target="airplane.Bullet">
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="airplane.SuperEnermy" target="airplane.Enermy">
+      <point x="0.0" y="-176.5" />
+      <point x="381.5" y="873.0" />
+      <point x="583.5" y="873.0" />
+      <point x="-91.0" y="165.0" />
+    </edge>
+    <edge source="airplane.Enermy" target="airplane.FlyingThings">
+      <point x="0.0" y="-165.0" />
+      <point x="0.0" y="188.0" />
+    </edge>
+    <edge source="airplane.Bullet" target="airplane.FlyingThings">
+      <point x="0.0" y="-50.0" />
+      <point x="112.5" y="401.0" />
+      <point x="595.5" y="401.0" />
+      <point x="-79.0" y="188.0" />
+    </edge>
+    <edge source="airplane.MyPlane" target="airplane.FlyingThings">
+      <point x="0.0" y="-211.0" />
+      <point x="945.0" y="401.0" />
+      <point x="753.5" y="401.0" />
+      <point x="79.0" y="188.0" />
+    </edge>
+    <edge source="airplane.BoomEnermy" target="airplane.Enermy">
+      <point x="0.0" y="-188.0" />
+      <point x="0.0" y="165.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.5" y="688.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

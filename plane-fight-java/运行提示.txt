@@ -1,0 +1,1 @@
+Jar文件位于AirForce_jar文件夹内，请先运行Player2.jar文件，再运行Player1.jar文件以开始联机。
